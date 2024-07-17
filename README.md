@@ -44,16 +44,12 @@ The dataset used can be found on Kaggle [here](https://www.kaggle.com/datasets/v
    - Develop targeted marketing strategies based on cluster insights.
 
 ## Findings✨🕵
-- **Cluster 0**: Low income, high education, more kids at home, low spending on wines and fruits, low response to campaigns.
-- **Cluster 1**: High income, average education, more kids at home, high spending on wines and fruits, high response to campaigns.
-- **Cluster 2**: Average income, low education, more teenagers at home, moderate spending on wines, negative spending on fruits, moderate response to campaigns.
-- **Cluster 3**: Slightly above average income, slightly below average education, more kids at home, moderate spending on wines, high spending on fruits, slightly lower response to campaigns.
+- **Cluster 0**: Lower income, more children at home, lower spending on wines and fruits, lower campaign response.
+- **Cluster 1**: Higher income, fewer children at home, higher spending on wines and fruits, higher campaign response.
 
 ### Implications for Marketing📢📌:
-- **Cluster 0**: Target with affordable products, educational content, and family-oriented products and services.
-- **Cluster 1**: Target with luxury and premium products, especially wines and gourmet foods. Offer premium family packages.
-- **Cluster 2**: Target with moderately priced products. Focus on tech gadgets, educational tools, and entertainment options for teenagers.
-- **Cluster 3**: Target with balanced offers combining affordable luxury and practical family products. Promote health-oriented products, particularly fruits.
+- **Cluster 0**: Target with affordable and family-oriented products. Focus on improving campaign engagement.
+- **Cluster 1**: Target with premium products and personalized offers. Enhance loyalty programs to strengthen engagement.
 
 ## 👩‍💻 Author
 
