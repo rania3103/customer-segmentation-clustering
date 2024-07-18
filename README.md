@@ -29,27 +29,34 @@ The dataset used can be found on Kaggle [here](https://www.kaggle.com/datasets/v
 ## Project Workflow 🎯
 1. **Data Preprocessing:**
    - Numerical features are scaled using `StandardScaler`.
-   - Categorical features are one-hot and label encoded using `OneHotEncoder`, `LabelEncoder`.
+   - Categorical features are one-hot and label encoded using `OneHotEncoder`
    - Impute missing values using `SimpleImputer`.
-   - Convert `Dt_Customer` to datetime and calculate `Days_since_joining`.
+   - Create new features `Total_spent`: sum of  sepnding on various products categories and `Number_of_purchases`: total sum of purchases through web, catalog and store.
 
 2. **Clustering:**
-   - Determine the optimal number of clusters using the Elbow method.
+   - Determine the optimal number of clusters using the Elbow method, Silhouette Score, and Davies-Bouldin Index.
    - Train the K-means model with the optimal number of clusters.
-   - Reduce dimensions using PCA for visualization.
-   - Visualize the clusters using scatter plots.
+   - Choose between PCA or t-SNE based on silhouette score for dimensionality reduction.
+   - Visualize clusters using PCA for better understanding.
 
 3. **Cluster Analysis:**
    - Analyze the cluster profiles and identify key characteristics.
    - Develop targeted marketing strategies based on cluster insights.
 
 ## Findings✨🕵
-- **Cluster 0**: Lower income, more children at home, lower spending on wines and fruits, lower campaign response.
-- **Cluster 1**: Higher income, fewer children at home, higher spending on wines and fruits, higher campaign response.
+- **Cluster 0**: Lower income, more children at home, lower spending, lower campaign response.
+- **Cluster 1**: Higher income, fewer children at home, higher spending, higher campaign response.
 
 ### Implications for Marketing📢📌:
-- **Cluster 0**: Target with affordable and family-oriented products. Focus on improving campaign engagement.
-- **Cluster 1**: Target with premium products and personalized offers. Enhance loyalty programs to strengthen engagement.
+
+- **Cluster 0**:
+    - offer discounts on essential items.
+    - introduce family oriented products that offer better value for money.
+    - improve online shopping experince with features like wishlist reminder to convert web visits into purchases.
+- **Cluster 1**:
+    - promote premium and luxury products.
+    - implement a robust loyalty program taht rewards frequent purchases and higher spending.
+    - offer fast shipping options and easy returns to enhance their shopping experience.
 
 ## 👩‍💻 Author
 
